@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="col col-md-auto">
+    <div class="card bg-primary text-white mb-4">
+        <div class="card-body" id="lb_val">Current CO2 Concentration: n/a</div>
+    </div>
+</div>
+
+
+<div class="col col-xl">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title">CO2 Concentration</h4>
+                    <div class="ct-chart ct-golden-section" style="width:80%;"></div>
+                </div>
+                <div class="col-sm-auto">
+                    <button type="button" class="btn btn-primary" id="btn_simulate">Simulate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\icons\material-design-iconic-font\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="wwwroot\css\icons\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff2" />
+    <None Include="wwwroot\css\icons\material-design-iconic-font\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\css\icons\material-design-iconic-font\fonts\materialdesignicons-webfont.woff2" />
+    <None Include="wwwroot\css\icons\themify-icons\fonts\themify.svg" />
+    <None Include="wwwroot\css\icons\themify-icons\ie7\ie7.js" />
+    <None Include="wwwroot\css\icons\themify-icons\themify-icons.less" />
+    <None Include="wwwroot\css\icons\weather-icons\fonts\weathericons-regular-webfont.svg" />
+    <None Include="wwwroot\css\icons\weather-icons\fonts\weathericons-regular-webfont.woff2" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-beaufort.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-day.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-direction.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-misc.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-moon-aliases.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-moon.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-neutral.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-night.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-time.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-wind-aliases.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-wind-degrees.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-classes\classes-wind.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-beaufort.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-day.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-direction.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-misc.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-moon.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-neutral.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-night.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-time.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\icon-variables\variables-wind-names.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\mappings\wi-forecast-io.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\mappings\wi-owm.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\mappings\wi-wmo4680.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\mappings\wi-yahoo.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons-classes.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons-core.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons-variables.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons-wind.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons-wind.min.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons.less" />
+    <None Include="wwwroot\css\icons\weather-icons\less\weather-icons.min.less" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-beaufort.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-day.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-direction.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-misc.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-moon-aliases.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-moon.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-neutral.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-night.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-time.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-wind-aliases.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-wind-degrees.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-classes\classes-wind.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-beaufort.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-day.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-direction.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-misc.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-moon.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-neutral.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-night.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-time.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\icon-variables\variables-wind-names.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\mappings\wi-forecast-io.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\mappings\wi-owm.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\mappings\wi-wmo4680.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\mappings\wi-yahoo.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons-classes.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons-core.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons-variables.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons-wind.min.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons-wind.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons.min.scss" />
+    <None Include="wwwroot\css\icons\weather-icons\sass\weather-icons.scss" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+  </ItemGroup>
+
+</Project>
